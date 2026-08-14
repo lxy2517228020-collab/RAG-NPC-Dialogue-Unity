@@ -6,7 +6,7 @@ This Unity project demonstrates a lightweight RAG-powered NPC dialogue generatio
 
 ## Demo
 
-![RAG NPC Dialogue Demo](demo.gif)
+![RAG NPC Dialogue Demo](Screenshots/demo.gif)
 
 ## Motivation
 
