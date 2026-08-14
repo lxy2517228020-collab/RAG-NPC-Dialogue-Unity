@@ -4,6 +4,10 @@
 
 This Unity project demonstrates a lightweight RAG-powered NPC dialogue generation plugin inside an existing 2D platformer game. The base platformer project originated from an open-source Unity template; this repository's main contribution is the AI-assisted NPC dialogue authoring workflow, local lore retrieval, semantic RAG pipeline, and runtime dialogue display.
 
+## Demo
+
+![RAG NPC Dialogue Demo](Screenshots/demo.gif)
+
 ## Motivation
 
 Normal LLM-generated NPC dialogue can sound fluent but hallucinate or contradict game lore. This project uses retrieval-augmented generation (RAG) to ground dialogue in local world-building documents before calling Gemini-compatible generation.
