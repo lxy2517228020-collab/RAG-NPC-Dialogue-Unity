@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4d6e0ae85cab4616b7f87607be9f289, type: 3}
+  m_Name: Roland_NormalConversation 1
+  m_EditorClassIdentifier: Assembly-CSharp::RAGNPCDialogue.DialogueSet
+  npcName: Roland
+  scenario: Player asks about buying a sword.
+  dialogueCategory: 1
+  dialogueLines:
+  - speaker: Roland
+    text: Want steel, do you? You don't look much like a soldier.
+    emotionOrTag: neutral
+  - speaker: Roland
+    text: Got a few blades on the rack. Plain, but they'll keep you alive.
+    emotionOrTag: neutral
+  - speaker: Roland
+    text: Take a look. Coins on the counter if you find one that fits your grip.
+    emotionOrTag: neutral
+  generationSource: OpenAICompatible:gemini-3.5-flash
